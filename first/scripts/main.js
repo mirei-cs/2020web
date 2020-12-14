@@ -7,11 +7,12 @@ function setUserName() {
   myHeading.textContent = 'Mozilla はすばらしいよ、' + myName;
 }
 
-let myImage = document.querySelector('img');
 
 myButton.onclick = function() {
   setUserName();
 }
+
+let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
